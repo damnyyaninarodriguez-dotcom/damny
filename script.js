@@ -1,6 +1,6 @@
-// Smooth Scrolling Functionality
-
-document.querySelectorAll('a[href^="#"]') .forEach(anchor => {
+// Smooth Scrolling JavaScript
+// This script enables smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
